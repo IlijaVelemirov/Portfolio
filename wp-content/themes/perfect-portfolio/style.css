@@ -5911,7 +5911,7 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   content: '';
   position: absolute;
   width: 6px;
-  background-color: black;
+  background-color: #1c1b1b;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -5932,9 +5932,9 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  right: -12px;
+  background-color: #d2fcec;
+  border: 4px solid #1c1b1b;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -5959,9 +5959,9 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #1c1b1b;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #1c1b1b;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -5973,14 +5973,14 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #1c1b1b;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #1c1b1b transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -12px;
 }
 
 /* The actual content */
@@ -5988,11 +5988,12 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   width: 100%;
   background-color: #ddd;
 }
-.content {
+.content123 {
   padding: 20px 30px;
   background-color: white;
   position: relative;
   border-radius: 6px;
+  border:5px solid #1c1b1b;
 }
 .skills {
   text-align: right;
@@ -6000,7 +6001,7 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   padding-bottom: 10px;
   color: white;
 }
-
+.content123 h2{font-size:26px;}
 .html {width: 90%; background-color: #04AA6D;}
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
