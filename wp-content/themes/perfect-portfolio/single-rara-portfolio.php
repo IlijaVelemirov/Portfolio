@@ -19,12 +19,7 @@ get_header(); ?>
             		endwhile; // End of the loop.
                     ?>
                 </div><!-- .gallery-wrap -->
-                <?php 
-                    /**
-                     * @hooked perfect_portfolio_single_portfolio_related_posts - 10
-                    */
-                    do_action( 'perfect_portfolio_after_portfolio_content' );
-                ?>            
+                        
         	</main><!-- #main -->
     	</div><!-- #primary -->
     </div>
