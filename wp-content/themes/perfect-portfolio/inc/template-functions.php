@@ -98,7 +98,7 @@ function perfect_portfolio_header(){
     				<div class="header-search">
                         <button type="button" class="search-toggle-btn" data-toggle-target=".header-search-modal" data-toggle-body-class="showing-search-modal" aria-expanded="false" data-set-focus=".header-search-modal .search-field">
                             <i class="fa fa-search"></i>
-                        </button type="button">
+                        </button>
                         
                         <div class="head-search-form search header-searh-wrap header-search-modal cover-modal" data-modal-target-string=".header-search-modal">
     				        <?php get_search_form(); ?>
