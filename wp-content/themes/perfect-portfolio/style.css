@@ -2489,7 +2489,7 @@ section.service-section {
 	margin: 0 auto 30px auto;
 }
 section[class*="-section"] .widget.widget_text {
-	width: 100%;
+	width: 95%;
 }
 section[class*="-section"] .widget.widget_text .textwidget {
 	/*max-width: 840px;*/
@@ -5984,7 +5984,7 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
 }
 
 /* The actual content */
-.containerasd {
+.container222 {
   width: 100%;
   background-color: #ddd;
 }
@@ -5999,13 +5999,19 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: white;
+  padding-right:10px;
+  color: black;
+  font-weight: 600;
 }
-.content123 h2{font-size:26px;}
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
+section#article_section{display:none;}
+.content123 h2{font-size:26px;margin:0px !important;}
+.html {width: 90%; background-color: #f44336;}
+.css {width: 90%; background-color: #2196F3;}
+.js {width: 60%; background-color: #f44336;}
+.php {width: 70%; background-color: yellow;}
+.wordpress {width: 85%; background-color: #2196F3;}
+.commerce {width: 75%; background-color: #04AA6D;}
+.sql {width: 70%; background-color: #d2fcec;}
 section#service_section .tc-wrapper{width:1270px;}
 a.asddsa {
     color: #1c1b1b;
@@ -6019,3 +6025,8 @@ a.asddsa:hover{color:silver;}
 a.widget-title.smoot{font-size:26px;}
 .gallery-img a img{max-width:90%;border:1px solid black;}
 section#rrtc_icon_text_widget-8{margin-bottom:0px;}
+header.site-header{box-shadow: 0 0px 40px -12px black;}
+.sposobnosti{margin:0 20%;}
+.sposobnosti h2{margin:5px; font-size:18px;}
+.formica{width:50%;}
+footer{display:none !important;}

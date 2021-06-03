@@ -93,8 +93,6 @@ function perfect_portfolio_header(){
     		<div class="header-r">
                 <?php if( perfect_portfolio_is_woocommerce_activated() && $ed_cart ) perfect_portfolio_wc_cart_count(); ?>
                 <?php if( $ed_header_search ) : ?>
-                      <!--<a class="asddsa" href="http://localhost/Portfolio/sr/pocetna-2/" hreflang="sr-RS" lang="sr-RS">SR</a>
-                       <a class="asddsa" href="http://localhost/Portfolio/" hreflang="en-US" lang="en-US">EN</a>-->
     				<div class="header-search">
                         <button type="button" class="search-toggle-btn" data-toggle-target=".header-search-modal" data-toggle-body-class="showing-search-modal" aria-expanded="false" data-set-focus=".header-search-modal .search-field">
                             <i class="fa fa-search"></i>
