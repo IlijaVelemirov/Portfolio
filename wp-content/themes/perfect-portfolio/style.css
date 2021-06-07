@@ -6030,3 +6030,9 @@ header.site-header{box-shadow: 0 0px 40px -12px black;}
 .sposobnosti h2{margin:5px; font-size:18px;}
 .formica{width:50%;}
 footer{display:none !important;}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
+	border: 2px solid #1c1b1b !important;
+}
+form.wpcf7-form.init p{text-align:left;}
+.row123321{display: inline-flex;}
+.column123{margin:0 80px;}
