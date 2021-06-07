@@ -525,7 +525,7 @@ msgstr ""
 msgid "Custom Home Page Builder"
 msgstr ""
 
-#: inc/renderer.php:315
+#: inc/renderer.php:321
 msgid "Prevented SiteOrigin layout from repeated rendering."
 msgstr ""
 
@@ -845,7 +845,7 @@ msgstr ""
 msgid "Include styles into your Post Content. This keeps page layouts, even when Page Builder is deactivated."
 msgstr ""
 
-#: inc/settings.php:562, inc/styles-admin.php:288
+#: inc/settings.php:562, inc/styles-admin.php:293
 msgid "Enabled"
 msgstr ""
 

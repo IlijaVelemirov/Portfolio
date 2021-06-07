@@ -1480,7 +1480,7 @@ SIDEBARS
 SITE HEADER
 ==========================*/
 header.site-header {
-	padding-top: 5px;
+	padding: 10px;
 	margin-bottom: 50px;
 	border-bottom:2px solid black;
 }
@@ -1672,6 +1672,7 @@ form.searchform:after {
 	cursor: pointer;
 	margin-left: 10px;
 	padding: 0;
+	display: none;
 }
 .header-r button.toggle-btn:hover {
 	background: #1c1b1b;
@@ -6000,18 +6001,18 @@ div#main-content-area div#content .tc-wrapper{width:1170px;}
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right:10px;
-  color: black;
+  color: white;
   font-weight: 600;
 }
 section#article_section{display:none;}
 .content123 h2{font-size:26px;margin:0px !important;}
-.html {width: 90%; background-color: #f44336;}
-.css {width: 90%; background-color: #2196F3;}
-.js {width: 60%; background-color: #f44336;}
-.php {width: 70%; background-color: yellow;}
-.wordpress {width: 85%; background-color: #2196F3;}
-.commerce {width: 75%; background-color: #04AA6D;}
-.sql {width: 70%; background-color: #d2fcec;}
+.html {width: 90%; background-color: #1c1b1b;}
+.css {width: 90%; background-color: #1c1b1b;}
+.js {width: 60%; background-color: #1c1b1b;}
+.php {width: 70%; background-color: #1c1b1b;}
+.wordpress {width: 85%; background-color: #1c1b1b;}
+.commerce {width: 75%; background-color: #1c1b1b;}
+.sql {width: 70%; background-color: #1c1b1b;}
 section#service_section .tc-wrapper{width:1270px;}
 a.asddsa {
     color: #1c1b1b;
@@ -6029,7 +6030,8 @@ header.site-header{box-shadow: 0 0px 40px -12px black;}
 .sposobnosti{margin:0 20%;}
 .sposobnosti h2{margin:5px; font-size:18px;}
 .formica{width:50%;}
-footer{display:none !important;}
+.bottom-footer{display:none !important;}
+.top-footer{display:none !important;}
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea{
 	border: 2px solid #1c1b1b !important;
 }
