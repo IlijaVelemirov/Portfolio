@@ -997,18 +997,18 @@ span.highlight {
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: white !important;
+	color: #1c1b1b !important;
 	display: inline-block;
 	padding: 10px 20px;
-	background: #05d584;
+	background: white;
 	border-radius: 40px;
 	margin-top: 10px;
-	border:1px solid #05d584;
+	border:1px solid #1c1b1b;
 }
 .btn-readmore:hover {
-	background: transparent;
-	color: black !important;
-	border:1px solid #05d584;
+	background: #1c1b1b;
+	color: white !important;
+	border:1px solid #1c1b1b;
 }
 
 .btn-readmore svg {
@@ -2126,7 +2126,7 @@ section.gallery-section {
 .gallery-wrap .gallery-img {
 	float: left;
 	width: 33.33%;
-	padding: 2px;
+	padding: 20px;
 	position: relative;
 	overflow: hidden;
 }
@@ -2135,11 +2135,11 @@ section.gallery-section {
 .gal-masonry .gallery-wrap .text-holder, 
 .page-template-portfolio .gallery-wrap .text-holder {
 	position: absolute;
-	top: 32px;
-	left: 30px;
+	top: 50px;
+	left: 50px;
 	background: rgba(255,255,255,0.9);
-	right: 30px;
-	bottom: 30px;
+	right: 50px;
+	bottom: 50px;
 	text-align: center;
 	opacity: 0;
 	visibility: hidden;
@@ -2219,7 +2219,7 @@ section.gallery-section {
 	color: #1c1b1b;
 }
 .text-holder .gal-title a:hover {
-	color: #05d584;
+	color: #1c1b1b;
 }
 .text-holder .gal-desc {
 	font-size: 16px;
@@ -3769,7 +3769,7 @@ ul.slider.owl-theme .owl-nav .owl-next {
 	right: 50px;
 }
 .single .gallery-wrap .content-wrap-box {
-	width: 85%;
+	width: 100%;
 	margin: 0 auto;
 	margin-bottom: 80px;
 }
@@ -6027,7 +6027,7 @@ a.asddsa {
 }
 a.asddsa:hover{color:silver;}
 a.widget-title.smoot{font-size:26px;}
-.gallery-img a img{max-width:90%;}
+.gallery-img a img{max-width:90%;box-shadow: 0px 10px 10px 1px silver;}
 section#rrtc_icon_text_widget-8{margin-bottom:0px;}
 header.site-header{box-shadow: 0 0px 40px -12px black;}
 .sposobnosti{margin:0 20%;}
